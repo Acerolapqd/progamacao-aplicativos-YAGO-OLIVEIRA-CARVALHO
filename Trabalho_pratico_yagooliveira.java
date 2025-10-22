@@ -1,13 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package trabalho_pratico_yagooliveirajava;
+package trabalho_pratico_yagooliveira;
 
 import java.util.Scanner;
 
-
-public class Trabalho_pratico_yagooliveiraJava {
+public class Trabalho_pratico_yagooliveira {
 
     public static class Veiculo {
         int codigo, tipo, horaEntrada, minutoEntrada, vaga;
@@ -232,7 +227,7 @@ public class Trabalho_pratico_yagooliveiraJava {
         }
     }
 
-    static int lerHora(String mensagem) {
+    public static int lerHora(String mensagem) {
         while (true) {
             System.out.print(mensagem);
             String valorDigitado = entrada.nextLine().trim();
@@ -244,7 +239,7 @@ public class Trabalho_pratico_yagooliveiraJava {
         }
     }
 
-    static int lerMinuto(String mensagem) {
+    public static int lerMinuto(String mensagem) {
         while (true) {
             System.out.print(mensagem);
             String valorDigitado = entrada.nextLine().trim();
@@ -256,7 +251,7 @@ public class Trabalho_pratico_yagooliveiraJava {
         }
     }
 
-    static int lerInteiro() {
+    public static int lerInteiro() {
         while (true) {
             try {
                 return Integer.parseInt(entrada.nextLine());
@@ -266,7 +261,7 @@ public class Trabalho_pratico_yagooliveiraJava {
         }
     }
 
-    static String lerTextoObrigatorio(String mensagem) {
+    public static String lerTextoObrigatorio(String mensagem) {
         while (true) {
             System.out.print(mensagem);
             String valorDigitado = entrada.nextLine().trim();
